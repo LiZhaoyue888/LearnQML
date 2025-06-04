@@ -6,4 +6,14 @@
 
 ## 内容列表
 
-1. calculator 计算器。内容：定制MenuBar|定制背景色|QML调用C++代码
+### 1.calculator 计算器
+
+内容：
+
+- 定制MenuBar-背景色，边框，文本色
+- 给布局加边框方便调试，左右加弹簧
+- ColumnLayout 比Column强大以及Column很坑
+- Qt Creator支持实时预览
+- Qt Creator可以设置qml save时格式化
+- TextField、ComboBox、Button
+- Button的onClicked方法很关键，执行javastricpet代码，弱类型var
