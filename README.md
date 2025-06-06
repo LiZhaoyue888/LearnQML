@@ -26,3 +26,9 @@
 - anchors.centerIn只能是一个特定Item
 - anchors.horizontalCenter和anchors.verticalCenter很常用
 - 可移动的MouseArea
+
+#### 3、ButtonComponent自定义按钮组件
+
+- 自定义组件名与qml文件名一致
+- 自定义控件暴露属性给外部
+- 自定义控件暴露信号给外部
