@@ -32,3 +32,14 @@
 - 自定义组件名与qml文件名一致
 - 自定义控件暴露属性给外部
 - 自定义控件暴露信号给外部
+
+#### 4、Image图片变换
+
+- 特别警告，要想用Qt6.8加载文件
+  - 必须加：set(CMAKE_AUTORCC ON)
+  - 必须再加：qt_add_executable(MyApp
+        main.cpp
+        resources.qrc     # 👈 在这里显式加进去)
+  - 预览QML打不开qrc图片
+- set(CMAKE_AUTORCC ON)  # 如果没有写，必须加上
+- 图片加边框
